@@ -1,0 +1,66 @@
+
+/*******************SPLASH SCREEN**********************/
+#splash{
+    background-image: url(../assets/images/background-purple.jpg);
+    background-position:center;
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 1;
+}
+
+.logo {
+    background-image: url("../assets/images/logo-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25rem;
+    position: absolute;
+    top: 35%;
+    width: 25rem;    
+}
+
+
+/*******************HERO**********************/
+#hero{
+    background-image: url(../assets/images/car-street.jpg);
+    background-position:center;
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+.main-logo {
+    background-image: url("../assets/images/lyftlife.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    height: 25rem;
+    position: absolute;
+    top: 30%;
+    width: 200%;    
+    z-index: 0;
+}
+
+.btns{
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 44rem;
+}
+
+.btn-main{
+    border: 1px solid white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
