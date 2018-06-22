@@ -30,4 +30,14 @@ $(document).ready(function () {
             key == 13 ||
             (key >= 48 && key <= 57));
     }
+
+
+    $('#btn-next').click(function (){
+        swal("Your code is this: 1s2g6d5", {
+            content: "input",
+          })
+          .then((value) => {
+             swal("Good job!");
+          });
+    });
 });
