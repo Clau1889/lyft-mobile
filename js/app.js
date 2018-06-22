@@ -1,9 +1,18 @@
-$(function(){
+
+ $(document).ready(function () {
+    console.log('hello');
+    // ******************FUNCION PARA SPLASH******************//
     setTimeout(function() {
        $('#splash').fadeOut(500);
     }, 2000);
- });
- 
- 
- $(document).ready(function () {
+
+    $('#sign-up').click(getSignUp);
+
+    // *************FUNCION PARA ENLAZAR EL BOTON SIGN UP*************//
+    function getSignUp (event){
+        event.preventDefault();
+        console.log('hola');
+        window.location.href= 'views/open-sing.html';
+    }
+
 });
