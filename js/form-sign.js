@@ -32,12 +32,14 @@ $(document).ready(function () {
     }
 
 
-    $('#btn-next').click(function (){
+    $('#btn-next').click(getCodeAccess);
+        
+    function getCodeAccess(){
         swal("Your code is this: 1s2g6d5", {
             content: "input",
           })
           .then((value) => {
              swal("Good job!");
           });
-    });
+    };
 });
