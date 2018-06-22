@@ -10,42 +10,48 @@
     <link rel="stylesheet" href="../css/sign-up.css">
 </head>
 <body>
-   <!--Creando formlario para registro-->
-   <div class="container black-text ">
-        <div class="row">
-            <div class="col s1 offset-s1"><a href="../index.html"><i class="medium material-icons center">chevron_left</i></a></div>
-            <div class="col s8">
-                <div class="row">
-                    <h4 class="col s12 center">SING UP</h4>
-                    <p class="col s12 center">Join now for free ride credit</p>
+    <!--Creando formlario para registro-->
+    <div class="row">
+        <div class=" col s10 m7 offset-s1 offset-m3  container black-text ">
+            <div class="row">
+                <div class="col s1">
+                    <a href="../index.html">
+                        <i class="medium material-icons center">chevron_left</i>
+                    </a>
+                </div>
+                <div class="col s8">
+                    <div class="row">
+                        <h4 class="col s11 offset-s2 center">SING UP</h4>
+                        <p class="col s11 offset-s2 center">Join now for free ride credit</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="row data-user">
-            <div class="input-field col s4 offset-s1">
-                <select id="country">
-                    <option value="" disabled selected>Country</option>
-                    <option value="" data-icon="../assets/images/mexico-flag.jpg" class="right">Mexico</option>
-                    <option value="" data-icon="../assets/images/brazil-flag.png" class="right">Brazil</option>
-                    <option value="" data-icon="../assets/images/spain-flag.png" class="right">Spain</option>
-                    <option value="" data-icon="../assets/images/us-flag.png" class="right">US</option>
-                </select>
+            <hr>
+            <div class="row data-user">
+                <div class="input-field col s4 offset-s1">
+                    <select id="country">
+                        <option value="" disabled selected>Country</option>
+                        <option value="" data-icon="../assets/images/mexico-flag.jpg" class="right">Mexico</option>
+                        <option value="" data-icon="../assets/images/brazil-flag.png" class="right">Brazil</option>
+                        <option value="" data-icon="../assets/images/spain-flag.png" class="right">Spain</option>
+                        <option value="" data-icon="../assets/images/us-flag.png" class="right">US</option>
+                    </select>
+                </div>
+                <input id="phone" class="col s5 offset-s1" type="text" placeholder="(LADA)+ 7digits">
             </div>
-            <input id="phone" class="col s5 offset-s1" type="text" placeholder="(LADA)+ 7digits">
-        </div>
-        <div class="row">
-            <p class="col s12 center">We'll send you a text to verify your phone</p>
-        </div>
-        <div class="row">
-            <a id="btn-next" class="col s4 offset-s4 waves-effect waves-light btn disabled ">Next<i class="medium material-icons right">chevron_right</i></a>
+            <div class="row">
+                <p class="col s12 center">We'll send you a text to verify your phone</p>
+            </div>
+            <div class="row">
+                <a id="btn-next" class="col s4 offset-s4 waves-effect waves-light btn disabled ">Next
+                    <i class="medium material-icons right">chevron_right</i>
+                </a>
+            </div>
         </div>
     </div>
 
-    
-    
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="../js/form-sign.js"></script>
 </body>

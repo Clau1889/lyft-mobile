@@ -1,6 +1,6 @@
 
  $(document).ready(function () {
-    console.log('hello');
+
     // ******************FUNCION PARA SPLASH******************//
     setTimeout(function() {
        $('#splash').fadeOut(500);

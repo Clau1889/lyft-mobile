@@ -24,7 +24,8 @@ $(document).ready(function () {
     }
 
     function getAsciiChars(key) {
-        return (          
+        return (   
+            key == 8 ||       
             key == 9 ||
             key == 13 ||
             (key >= 48 && key <= 57));
